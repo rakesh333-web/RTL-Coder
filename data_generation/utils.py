@@ -31,7 +31,7 @@ def save_json(dic_list, path):
             f.write('\n')
 
 
-def askGPT35(question ,model='gpt-35-turbo', is_response=False, temperature=0.7):
+def askGPT35(question ,model='gpt35turbo', is_response=False, temperature=0.7):
     sleep_time = 2
     if is_response is True:
         p_message = [
