@@ -160,6 +160,9 @@ def generate_instruction_following_data(
 
 import openai
 #please set your openai api
+openai.api_key ="e6e399c281c84e9da226cb96d34c2f3a"
+openai.api_version="2024-02-15-preview"
+openai.azure_endpoint="https://madhaviopenai1.openai.azure.com/openai/deployments/madhavi/chat/completions?api-version=2024-02-15-preview"
 
 
 generate_instruction_following_data(output_dir="",
